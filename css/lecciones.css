@@ -34,11 +34,18 @@ body button{
     border: var(--b-border);
     border-radius: var(--b-curva);
     transition: 0.4s;
+    padding: 60px;
+    font-size: 25px;
 }
 
 body button:hover{
     background-color: #000;
     color: #fff;
+}
+
+body img{
+  width: auto;
+  height: 100px;
 }
 
 @media screen and (max-width: 480px){
@@ -52,6 +59,12 @@ body button:hover{
 
     body button{
         width: 240px;
-        height: 140px;
+        height: 200px;
+        padding: 40px;
+    }
+
+    body img{
+      width: auto;
+      height: 80px;
     }
 }
